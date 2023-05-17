@@ -1,9 +1,13 @@
-.container{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
   margin: auto;
-  max-width:600px;
+  max-width: 600px;
 }
 
-.todoBlock{
+.todoBlock {
   padding: 30px;
   margin-top: 50px;
   background: #fff;
@@ -11,6 +15,6 @@
   box-shadow: -9px 17px 13px rgb(0 0 0 / 16%);
 }
 
-.title{
+.title {
   color: aqua;
 }
